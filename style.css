@@ -1,0 +1,104 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(127, 167, 166), rgb(33, 97, 131));
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .left-column {
+    width: 30%;
+    background-color: rgb(163, 218, 255);
+    padding: 20px;
+    text-align: left; /* Changed from 'center' to 'left' */
+  }
+  
+  .right-column {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  img.profile-pic {
+    display: block;
+    margin: 0; /* Removed 'auto' to prevent centering */
+    width: 100px; /* Corrected size for profile photo */
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #000;
+  }
+  
+  img.small-icon {
+    display: inline-block;
+    margin: 10px 5px; /* Adjusted spacing between additional photos */
+    width: 50px; /* Corrected size for additional photos */
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #333;
+  }
+  
+  h1, h2, h3 {
+    color: rgb(33, 97, 131);
+    margin: 10px 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  .section-title {
+    font-size: 1.5em;
+    color: rgb(255, 0, 0);
+    border-bottom: 2px solid rgb(33, 97, 131);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  .contact-item {
+    margin: 10px 0;
+    color: rgb(33, 97, 131);
+  }
+  
+  a {
+    color: rgb(33, 97, 131);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: red;
+  }
+  
+  h1 {
+    color: rgb(3, 76, 3);
+  }
+  
+  .contact-item b {
+    color: blue;
+  }
+  
